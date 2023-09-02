@@ -1,6 +1,7 @@
 package com.zerobase.houseutils.policy;
 
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.springframework.lang.Nullable;
 
@@ -10,16 +11,19 @@ import org.springframework.lang.Nullable;
 
 @AllArgsConstructor
 @NoArgsConstructor
+@Getter
 public class BrokerageRule {
+    private Long lessThan;
     private Double brokeragePercent;
 
     @Nullable
     private Long limitAmount;
 
+    public BrokerageRule(Long lessThan, Double brokeragePercent) {
+        this(lessThan, brokeragePercent, Long.MAX_VALUE);
+    }
+
     public Long calcMaxBrokerage(Long price) {
-        if (limitAmount == null) {
-            return multiplyPercent(price);
-        }
         return Math.min(multiplyPercent(price), limitAmount);
     }
 
