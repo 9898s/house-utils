@@ -1,0 +1,104 @@
+GET http://localhost:8080/api/calc/apartment/2?actionType=PURCHASE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-09-02T153943.200.json
+
+###
+
+GET http://localhost:8080/api/calc/apartment/1?actionType=RENT
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-09-02T153938.200.json
+
+###
+
+GET http://localhost:8080/api/calc/apartment/1?actionType=PURCHASE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-09-02T153935.200.json
+
+###
+
+GET http://localhost:8080/api/calc/apartment/1?actionType=PURCHASE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-09-02T153430.500.json
+
+###
+
+GET http://localhost:8080/api/calc/apartment/1?actionType=RENT
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-09-02T152521.200.json
+
+###
+
+GET http://localhost:8080/api/calc/apartment/1?actionType=PURCHASE
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-09-02T152519.200.json
+
+###
+
+GET http://localhost:8080/api/calc/brokerage?actionType=RENT&price=1000000000
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-09-02T143858.200.json
+
+###
+
+GET http://localhost:8080/api/calc/brokerage?actionType=PURCHASE&price=1000000000
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-09-02T143856.200.json
+
+###
+
+GET http://localhost:8080/api/calc/brokerage?actionType=RENT&price=1000000000
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/calc/brokerage?actionType=PURCHASE&price=1000000000
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:8080/api/ping
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-09-01T182922.200.txt
+
+###
+
+GET http://localhost:8080/api/ping
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.7)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-09-01T182708.200.txt
+
+###
+
